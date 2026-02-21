@@ -68,6 +68,12 @@ h1 {
                 font-size: 200%
             }
 
+            h3 {
+                transition-property: font-size;
+                transition-duration: 3s;
+                transition-timing-function: ease-in;
+            }
+
             p {
                 width: 400px;
                 text-align: center;
@@ -92,6 +98,12 @@ h1 {
             img:hover {
                 -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
                 filter: blur(5px);
+            }
+
+            img {
+                transition-property: filter;
+                transition-duration: 5s;
+                transition-timing-function: ease-in;
             }
 
          
